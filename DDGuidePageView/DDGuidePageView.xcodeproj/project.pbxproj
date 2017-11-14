@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D9F6AF061FB98B2500163F5C /* DDGuidePageViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F6AF051FB98B2500163F5C /* DDGuidePageViewTests.m */; };
 		D9F6AF111FB98B2500163F5C /* DDGuidePageViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F6AF101FB98B2500163F5C /* DDGuidePageViewUITests.m */; };
+		D9F6AF3A1FBA7E9F00163F5C /* DDGuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F6AF391FBA7E9F00163F5C /* DDGuidePageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		D9F6AF341FBA7D1400163F5C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		D9F6AF351FBA7D1400163F5C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		D9F6AF371FBA7D9B00163F5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9F6AF381FBA7E9F00163F5C /* DDGuidePageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDGuidePageView.h; sourceTree = "<group>"; };
+		D9F6AF391FBA7E9F00163F5C /* DDGuidePageView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDGuidePageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 		D9F6AEEB1FB98B2500163F5C /* DDGuidePageView */ = {
 			isa = PBXGroup;
 			children = (
+				D9F6AF381FBA7E9F00163F5C /* DDGuidePageView.h */,
+				D9F6AF391FBA7E9F00163F5C /* DDGuidePageView.m */,
 			);
 			path = DDGuidePageView;
 			sourceTree = "<group>";
@@ -264,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9F6AF3A1FBA7E9F00163F5C /* DDGuidePageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
